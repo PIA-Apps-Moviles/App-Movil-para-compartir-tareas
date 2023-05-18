@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuUsuario"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Tus Tareas" />
+    <item
+        android:id="@+id/menuUsuarios"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Buscar Tarea" />
+    <item
+        android:id="@+id/menuTareas"
+        android:icon="?android:attr/actionModeFindDrawable"
+        android:title="Tareas" />
+</menu>
