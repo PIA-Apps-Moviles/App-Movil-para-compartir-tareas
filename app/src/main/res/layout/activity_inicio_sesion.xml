@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAF3FE"
+    android:background="#173F5A"
     tools:context=".usescases.iniciosesion.InicioSesion">
 
     <LinearLayout
@@ -12,29 +12,29 @@
         android:layout_height="528dp"
         android:gravity="center"
         android:orientation="vertical"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"
-        android:padding="16dp">
+        app:layout_constraintVertical_bias="0.571">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:counterEnabled="true"
             app:counterMaxLength="20"
-            app:counterTextColor="@color/black"
+            app:counterTextColor="#C2FCB0"
             app:helperText="*Obligatorio"
-            app:helperTextTextColor="@color/black">
+            app:helperTextTextColor="#C2FCB0">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/User"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nombre de usuario"
-                android:inputType="text"/>
+                android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -47,17 +47,16 @@
             android:layout_height="wrap_content"
             app:counterEnabled="true"
             app:counterMaxLength="20"
-            app:counterTextColor="@color/black"
+            app:counterTextColor="#C2FCB0"
             app:helperText="*Obligatorio"
-            app:helperTextTextColor="@color/black">
+            app:helperTextTextColor="#C2FCB0">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Correo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Correo electronico"
-                android:inputType="textEmailAddress"
-                />
+                android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,10 +70,10 @@
             android:hint="Contraseña"
             app:counterEnabled="true"
             app:counterMaxLength="8"
-            app:counterTextColor="@color/black"
+            app:counterTextColor="#C2FCB0"
             app:endIconMode="password_toggle"
             app:helperText="*Obligatorio"
-            app:helperTextTextColor="@color/black">
+            app:helperTextTextColor="#C2FCB0">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Contrasena"
@@ -92,6 +91,8 @@
             android:id="@+id/ISBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#C2FCB0"
             android:text="Inicio Sesión" />
 
         <Space
@@ -103,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="¿No tienes una cuenta? Registrate"
-            android:textColor="@color/black"
+            android:textColor="#C2FCB0"
             android:textSize="16dp"
             android:textStyle="bold" />
 
@@ -115,6 +116,8 @@
             android:id="@+id/RBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:backgroundTint="#C2FCB0"
             android:text="Registrate" />
 
     </LinearLayout>
