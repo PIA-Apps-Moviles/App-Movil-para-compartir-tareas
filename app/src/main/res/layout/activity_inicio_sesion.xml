@@ -7,6 +7,14 @@
     android:background="#173F5A"
     tools:context=".usescases.iniciosesion.InicioSesion">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="64dp"
+        android:layout_height="62dp"
+        android:background="@drawable/Logo"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <LinearLayout
         android:layout_width="346dp"
         android:layout_height="528dp"
