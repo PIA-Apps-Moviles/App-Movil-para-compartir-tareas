@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="10dp"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvIdUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Usuario"
+        android:padding="5dp" />
+
+<TextView
+    android:id="@+id/tvNombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:gravity="center"
+    android:hint="Nombre"/>
+
+
+    <TextView
+        android:id="@+id/tvMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:hint="Materia"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnVerPDF"
+        android:layout_width="158dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/boton_redondo"
+        android:layout_marginHorizontal="5dp"
+        android:layout_weight="1"
+        android:isScrollContainer="false"
+        android:text="Ver PDF"
+        android:textSize="12sp"
+        app:icon="@android:drawable/ic_menu_view"
+        app:iconPadding="5dp"
+        app:iconSize="25dp" />
+
+
+    <Button
+        android:id="@+id/btnVerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:layout_marginHorizontal="5dp"
+        android:layout_weight="1"
+        app:icon="@android:drawable/ic_menu_info_details"
+        app:iconPadding="5dp"
+        app:iconSize="25dp" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:layout_marginHorizontal="5dp"
+        android:layout_weight="1"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:iconPadding="10dp"
+        app:iconSize="25dp" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:layout_marginHorizontal="5dp"
+        android:layout_weight="1"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconPadding="10dp"
+        app:iconSize="30dp" />
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

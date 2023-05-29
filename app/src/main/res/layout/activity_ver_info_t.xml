@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F4F3"
+    tools:context=".usescases.VerInfoTarea.VerInfoT">
+
+    <TextView
+        android:id="@+id/miusuarioH"
+        android:layout_width="263dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="80dp"
+        android:background="#9EF01A"
+        android:text="Usuario"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreHomeW"
+        android:layout_width="342dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="88dp"
+        android:background="#CAF0F8"
+        android:backgroundTint="#CAF0F8"
+        android:lineSpacingExtra="8sp"
+        android:text="NombreTarea"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/miusuarioH" />
+
+    <TextView
+        android:id="@+id/materiaHomeW"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="52dp"
+        android:background="#E4C1F9"
+        android:text="Materia"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreHomeW" />
+
+    <TextView
+        android:id="@+id/desHomeW"
+        android:layout_width="339dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="68dp"
+        android:background="#C7F9CC"
+        android:text="Descripción"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materiaHomeW" />
+</androidx.constraintlayout.widget.ConstraintLayout>
