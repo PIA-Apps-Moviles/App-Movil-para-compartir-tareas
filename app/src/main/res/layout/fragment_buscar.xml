@@ -3,5 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BE95C4"
-    tools:context=".usescases.MenuFragments.Buscar.Buscar" />
+    android:background="#FFCB77"
+    tools:context=".usescases.MenuFragments.Buscar.Buscar">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Buscar"
+        android:visibility="visible" />
+
+</FrameLayout>
